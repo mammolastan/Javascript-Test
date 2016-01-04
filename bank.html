@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>BANK</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bank.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="bank.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <div id="nav">
+        <div id="logo"><img src="backbase.jpg" /></div>
+        <div id="title">Bank of Backbase</div>
+      </div>
+      <div class="account account-left">
+        <h2>Checking Account</h2>
+          <div id="account1">
+            <div class="balance" id="balance1">$0</div>
+            <input id="amount1" type="text" placeholder="enter an amount" />
+            <input id="deposit1" type="button" value="Deposit" />
+            <input id="withdraw1" type="button" value="Withdraw" />
+          </div>
+      </div>
+      <div class="account account-right">
+        <h2>Retirement Account</h2>
+        <div id="account2">
+          <div class="balance" id="balance2">$0</div>
+          <input id="amount2" type="text" placeholder="enter an amount" />
+          <input id="deposit2" type="button" value="Deposit" />
+          <input id="withdraw2" type="button" value="Withdraw" />
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>
+
